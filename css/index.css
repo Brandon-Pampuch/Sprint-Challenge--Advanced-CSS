@@ -169,6 +169,8 @@ p {
   padding-top: 20px;
   border-bottom: 2px dashed #F1F1F1;
   margin: 0 auto;
+  position: sticky;
+  top: 0;
 }
 .nav-wrap h1 {
   font-size: 3rem;
@@ -182,7 +184,7 @@ p {
 .nav-wrap nav a {
   font-size: 2rem;
   text-decoration: none;
-  color: black;
+  color: #454A59;
   padding-right: 3rem;
 }
 @media (max-width: 500px) {
@@ -278,15 +280,17 @@ footer {
   font-size: 1.8rem;
   border-radius: 5px;
   padding: 5px 10px;
-  color: white;
-  background-color: black;
+  color: #F6F7F8;
+  background-color: #22283A;
   text-align: center;
   width: 30%;
   transition: all 1s;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 .home .walk .walk-text .btn:hover {
-  color: black;
-  background-color: white;
+  color: #22283A;
+  background-color: #F6F7F8;
   transform: translateY(5px);
 }
 @media (max-width: 500px) {
