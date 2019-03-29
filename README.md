@@ -34,20 +34,33 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive sites use break points, but fully responsive sites use percentages with max width as well as break points to be completely “responsive”.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means to build your site with mobile in mind first and design the mobile version first and later creating larger break points for larger devices.
+
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It divides the default font-size of 16 to create a base 10 system of measurement so that we can easily add rem ( a responsive unit ) to our website.   This is very useful for font sizes because it will allow the browser to change the font-size.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+A way to process your CSS in nested scopes the are more organized as well as a way to create small components of CSS code.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Nesting because it will allow you to create much more organized code.
+
+Mix-ins because most of my components require too many parameters.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
 Because you are using a preprocessor, there are two parts to setting up your project.  Be sure to run through the git set up first and then set up the preprocessor.
-
+`
 ### Git Set up
 
 Follow these steps to set up your project:
