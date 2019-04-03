@@ -28,7 +28,6 @@ Sprint - Advanced CSS
 ## What Looks Great
 
 - MVP complete! Nice work
-- Frequent and descriptive commits
 - Code is well formatted and easy to read
 - Great file structure
 
